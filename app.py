@@ -417,14 +417,12 @@ page = st.sidebar.radio(
 st.sidebar.divider()
 
 with st.sidebar.container():
-    st.sidebar.markdown("### PROJECT DETAILS")
-    st.sidebar.markdown("**Data Analytics Minor Project**")
-    st.sidebar.markdown("Noida International University")
-    st.sidebar.caption("B.Tech | Data Science")
+    st.sidebar.markdown("### ABOUT CIVICPULSE")
+    st.sidebar.caption("Delhi rainfall and waterlogging analytics")
 
 st.sidebar.divider()
 
-st.sidebar.caption("CivicPulse | Academic Prototype")
+st.sidebar.caption("Rainfall • Geospatial Insights • Data")
 
 # =========================================================
 # COMMON HERO HEADER
@@ -446,7 +444,7 @@ with st.container(key="civicpulse_hero"):
         "historical rainfall-based risk indicators through "
         "an integrated data analytics platform."
     )
-    st.caption("✦ ACADEMIC DATA ANALYTICS PROJECT")
+    st.caption("✦ DELHI WATERLOGGING ANALYTICS")
 
 # =========================================================
 # PAGE 1: PROJECT OVERVIEW
@@ -1051,13 +1049,13 @@ elif page == "Geocoding Coverage":
 st.divider()
 
 st.markdown("### 🌧️ CivicPulse")
-st.caption("Data Analytics Minor Project")
-
-st.markdown(
-    "**Noida International University** | B.Tech Data Science"
+st.caption(
+    "A data-driven view of rainfall patterns and reported "
+    "waterlogging-vulnerable locations."
 )
 
 st.caption(
-    "Academic analysis prototype. "
-    "Not an official emergency alert system."
+    "CivicPulse is an analytical information tool, "
+    "not an official emergency alert system."
 )
+
